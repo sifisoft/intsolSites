@@ -1,0 +1,180 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+html{font-size:125%; height:100%;}
+body{font-size:80%; background-color:#FFFFFF; width:100%}
+
+#fondo
+{
+	background-image:url(../Imagenes/cabecera.png);/*fondo de la cabecera*/
+	height:200px;
+	width:900px; 
+	margin:0 auto 0 auto; 
+	padding:0px;
+	-moz-box-shadow: 3px  3px 6px #000;
+	
+}
+
+#botonera
+{
+	background-image:url(../Imagenes/boton.png);
+	position:absolute;
+	font-family:Arial;
+}
+#botonera p{
+	line-height:30px;
+	margin:0 10px 0 10px; 
+	color:#777;
+	}
+#botonera p a { text-decoration:none; padding:2px; color:green;}
+#botonera p a:hover{text-decoration:none; background-color:red;color:#FFFFFF;}
+
+#main
+{
+	background-color:#ffffff;
+	/*border:1px solid #000000;*/
+	color:green;
+	font-family:Arial;
+	padding-top:0px;
+	margin:0 auto 0 auto;
+	width:900px;
+}
+#main h4
+{
+	color:#8A0808;
+}
+#main hr
+{
+	color:#F2F2F2;
+	margin:0;
+	padding:0;
+}
+#contenido
+{
+	font-family:Arial;
+	color:#FFFF99;
+	font-size:18px;
+	padding-top:0;
+	padding-left:20px;
+	padding-right:20px;
+	margin: 1px;
+}
+#contenido a
+{
+text-decoration:none;
+color:#FFFF99;
+}
+#contenido a:hover{
+color:#FFFFFF;
+}	
+#contenido td
+{
+	padding: 10px;
+}
+
+#botonder
+{
+	width: 550px;
+	height: 43px;
+	border-right: 1px solid #333333;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	float: none;
+	background-color: #000000;
+
+
+}
+#botonder ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+#botonder li {
+
+	display: inline;
+}
+.background_iframe {
+	background-image: url(../comunicados/images/bg_comunicados.png);
+	background-position: center center;
+}
+
+}#botonder a {
+	display: block;
+	float: left;
+	width: 109px;
+	height: 29px;
+	padding: 14px 0 0 0;
+	border-left: 1px solid #333333;
+	text-transform: lowercase;
+	text-decoration: none;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #BABABA;
+}
+
+#botonder a:hover {
+	background: #333333;
+}
+
+#botonder .active a {
+	background: #F49A24;
+	color: #FFFFFF;
+
+}
+
+
+
+#botonlado
+{	
+	background-image:url(../Imagenes/boton.png);
+	float:left;
+	font-family:Arial;
+	font-size:12px;
+	padding:10px;
+	border:1px solid #CCCCCC;
+	 -moz-border-radius: 7px;
+	 -webkit-border-radius: 7px;
+	/*box-shadow: 3px  3px 6px #000;
+   	-webkit-box-shadow: 3px 3px 6px #000;
+	-moz-box-shadow: 3px  3px 6px #000;*/
+}
+#botonlado h3{
+	line-height:30px;
+	margin:0 10px 0 10px;
+	color:#8A0808;
+	}
+#botonlado h4{
+	line-height:30px;
+	margin:0 10px 0 10px;
+	color:green;
+	}
+#botonlado p{
+	line-height:30px;
+	margin:0 10px 0 10px;
+	color:#8A0808;
+	}
+#botonlado p a { text-decoration:none;padding:2px; color:#AAAAAA;}
+#botonlado p a:hover{text-decoration:none;/* Background-color:#FFFFFF; background-image:url(../Imagenes/boton2.png);*/ color:green;}
+
+#pie
+{
+	font-family:Calibri;
+}
+#pie p{
+	line-height:30px;
+	margin:0 10px 0 10px; 
+	color:#777;
+}
+
+#pie p a { padding:2px; color:#fff;}
+#pie p a:hover{text-decoration:none; color:#FFFF00;}
+
+#reloj{
+	color:#000;
+	pading:10px;
+	text-align:rigth;
+	}
+

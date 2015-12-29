@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="Imagenes/icono.ico" rel="shortcut icon" />
+	<link href="CSS/styleop.css" rel="stylesheet" type="text/css">
+	<title>.::H. Ayuntamiento de Atenco -Transparencia-::.</title>
+	<script language="javascript">
+	function Reloj()
+	{
+	var fecha = new Date();
+	var horas = fecha.getHours();
+	var minutos = fecha.getMinutes();
+	var segundos = fecha.getSeconds();
+	var mt = "AM";
+	if (horas > 12) {
+	mt = "PM";
+	horas = horas - 12;
+	}
+	if (horas == 0) horas = 12;
+	if (minutos <= 9) minutos = "0" + minutos;
+	if (segundos <= 9) segundos = "0" + segundos;
+	stringreloj = "<font size='1' face='Arial'>&nbsp;<b>Hora:</b> " + horas + ":" + minutos + ":" + segundos + " " + mt + "</font>";
+	if (document.layers) {
+	document.layers.spanreloj.document.write(cadenareloj);
+	document.layers.spanreloj.document.close();
+	}
+	else if (document.all) spanreloj.innerHTML = stringreloj;
+	else if (document.getElementById) document.getElementById("spanreloj").innerHTML = stringreloj;
+	// Ejecuto la función con un intervalo de un segundo
+	setTimeout("Reloj()", 1000);
+	}
+	</script>
+</head>
+<body onLoad="Reloj()">
+	
+	<div id="fondo">
+		<!---<div id="botonera"align=">
+			<p> <a href="index.html">Inicio </a> | <a href="mailto: hola@hotmail.com"> Contacto </a> | <a>Links </a> </p>-->
+		</div>
+	</div>
+	<div id="main">
+		<div id="menu">
+			<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="">Noticias</a></li>
+			<li><a href="">Atenco</a></li>
+			<li><a href=""> Turismo</a></li>
+			<li><a href="">Directorio </a></li>
+			<li><a href="">Gobierno</a></li>
+			<li><a href="">Galeria</a></li>
+			<li><a href=""> Emergencias </a></li>
+
+			</ul>
+		</div>
+		<BR>
+		<div id="contenido">
+			
+				<div id="reloj">
+				<script LANGUAGE="JavaScript">
+				<!-- COMIENZO
+				Stamp = new Date();
+				year = Stamp.getYear();
+				if (year < 2000) year = 1900 + year;
+				document.write('<font size="1" face="Arial"><B>Hoy es: </B> ' + (Stamp.getMonth() + 1) +"/"+Stamp.getDate()+ "/"+ year + '</font>');
+				// FIN -->
+				</script>
+				<span id="spanreloj" style="position:absolute;left:10;top:10;"></span>
+				</div>
+				
+				<br>
+			
+			<div id="botonlado">
+				<ul>
+				<li><a href="">Sala de Noticias</a></li>
+				<li><a href="">OPDM</a></li>
+				<li><a href="">DIF municipal</a></li>
+				<li align="center"><a href="">Obras Municipales</a></li>
+				<BR>
+				<img src="Imagenes/pagos.png" class=" serv"align="center" alt="Pagos en linea" heigth="40px"></img>
+				<li><a href="">Agua OPDM</a></li>
+				<li><a href="">Predial</a></li>
+				<BR>
+				<img src="Imagenes/linea.png" class=" serv"align="center" alt="Servicios en linea" heigth="40px"></img>
+				<li><a href="">Atencion CIudadana</a></li>
+				<li><a href="">Ayuda en Línea</u></a></li>
+				<li><a href="transparencia.html"><u class="trans">Transparencia</u></a></li>
+				<li><a href="">Maltrato Intrafamiliar</a></li>
+				<li><a href="">Quejas y Denuncias</a></li>
+				
+				</ul>
+			</div>
+
+		<h2>Portal de Transparencia del Municipio de Atenco</h2>
+		<br>
+		<p>Con el fin de generar las condiciones institucionales para que los ciudadanos del Municipio de Atenco puedan ejercer su derecho a la información, 
+		el Ayuntamiento 2009-2012 ha puesto a disposición de la población la información pública para su consulta en el momento que lo requiera.</p>
+		<p> Bienvenido al portal de transparencia de Atenco, de click en la opcion que desee:</p>
+		<p ><a href="http://www.infoem.org.mx/src/php/inicio.php" target="_blank"><img class="imgmain" src="Imagenes/bn_infoem_up.gif" alt="infoem" border="0"></img></a>
+		<a href="http://148.215.1.33/sicosiemV2/" target="_blank"><img src="Imagenes/bn_sicosiem.gif" alt="infoem" border="0" ></img></a></p>
+		<br>
+		
+		<p><ul class="mainlist">
+			<a href="http://148.215.1.33/sicosiemV2/" target="_blank"><li>Solicitid de Informacion</li></a>
+			<a href=""><li>Organigrama</li></a>
+			<a href="docs.html"><li>Documentos Municipales</li></a>
+			<br>
+			<br>
+			<br>
+			<a href=""><li>Presupuesto de ingresos y egresos</li></a>
+			<a href=""><li>SICOSIEM</li></a>
+		</ul></p>
+		<br>
+		<br>
+		<br><br><br><br><br><br><br><br><br><br>
+		
+		
+		<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+		
+		<BR>
+		</div>
+	
+		<div id="pie">
+			<br><br><br><br><br><br><br><br><br><br><br>
+			<font class="navi">Para vizualizar correctamente esta página, descarga la ultima versión de tu navegador:
+			<br>
+			<a href="http://www.microsoft.com/spain/windows/internet-explorer/" target="_blank"><img   class="navia" src="Imagenes/ico_explorer.png" border="0" alt="Internet Explorer"></img></a>
+			<a href="http://www.mozilla-europe.org/es/firefox/ " target="_blank"><img border="0"class="navi" src="Imagenes/ico_firefox.png" alt="Internet Explorer"></img></a>
+			<a href="http://www.google.com/chrome?hl=es" target="_blank"><img border="0"class="navi"src="Imagenes/ico_chrome.png" alt="Internet Explorer"></img></a>
+			</font>
+			<br>
+			<p>2010 &copy;. Reservados Todos los Derechos</p>
+			
+		</div>
+
+		
+		
+	</div>
+</body>
+</html>

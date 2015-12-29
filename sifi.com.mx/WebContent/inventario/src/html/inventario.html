@@ -1,0 +1,101 @@
+<script type="text/javascript" src="../js/load_efect.js"></script>
+<script src="../js/detect-zoom.js"></script>
+<script type="text/javascript" src="../js/zoom.js"></script>
+<script type="text/javascript" src="../js/cookies.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#sta2").click(function(){
+		$("#info_description").fadeOut(700);	
+		$("#shower2").fadeOut(700);
+	});
+	var showInfo = function(){
+		$("#info_description").fadeIn(700);
+		$("#info_description").animate({"top":"352px"},680,function(){
+			$("#shower2").fadeIn(680);
+		});
+		
+		};
+		if(CojerCookie("showcarac")!=1){
+			setTimeout(showInfo,1000);
+			GuardarCookie("showcarac","1",Caduca(31));
+		}else{
+			
+		}
+	});
+</script>
+<input type="hidden" value="715" id="sizepage"/>
+<input type="hidden" value="715" id="sizemain"/>
+<input type="hidden" value="723" id="sizemainie"/>
+<input type="hidden" value="723" id="sizepageie"/>
+<div class="mainBgGray" id="capa_tam" style="height: 702px"></div> 
+<div style="padding: 15px;" id="jm_maincontent">
+    <div class="joci_abs combotextbox_panel_container" id="combotextbox_panel_container">
+    </div>
+    <table cellspacing="0" cellpadding="0" class="round white "><tbody><tr class="white_top"><td class="sprt white_left"></td><td class="sprt_x white_middle"></td><td class="sprt white_right"></td></tr><tr class="white_middle"><td class="sprt_y white_left"></td><td class="white_middle">
+        <div class="gomobile-content" id="GoMobil">
+	<h1>Un vistazo a SIFI Inventario</h1>
+        <p class="intro-p" style="border-bottom: 1px dashed #D8D8D8">
+        SIFI Inventario ha sido desarrollado por INTSOL S.A de C.V para satisfacer las necesidades de las empresas, ayud&aacute;ndolas a llevar un control exacto de sus art&iacute;culos en almac&eacute;n.
+        </p>
+            	<div class="platforms cfx">
+           		<div class="green" id="freever" style="width: 440px;">
+           		<img width="420" height="315" src="../img/video_over.png" id="playmovie" class="videoim"/>
+           		<br />
+           		<p style="margin-top: 66px;">Por su f&aacute;cil operatividad, adem&aacute;s de que es muy intuitivo, quien ha utilizado 
+           		SIFI inventario ha quedado 
+           		muy contento pues ha ahorrado tiempo para otras actividades, 
+           		pues los reportes que se hac&iacute;an manualmente ahora son de <br /> forma autom&aacute;tica.</p>
+           		
+        		</div> 
+                <div class="mobile" style="height: 536px; width: 400px; background: url('../img/sidebar_begin.png') no-repeat -23px -134px;background-size: 32px 695px;">
+                
+               <!-- CAJA DE QUE ES -->
+               <div class="post" style="margin-bottom:30px;">
+               <div class="post-panel">
+				<div class="copy">
+							
+				<h1>&iquest;Qu&eacute; es SIFI Inventario?</h1>
+
+						<p>Cuando INTSOL desarrolla un software lo hace pensando siempre en las principales necesidades de los clientes y 
+						 sobre todo en sus prioridades;
+						 y ya que el almac&eacute;n es parte de la empresa, pero no la que requiera toda la atenci&oacute;n para el 
+						 crecimiento de la misma, SIFI Inventario hace el trabajo completo de inventario, mientras se concentran m&aacute;s 
+						 recursos y personal a las partes vitales de crecimiento.</p>
+							
+						</div>
+					</div>
+               <div class="post-shadow"></div>
+               </div>
+                 <!-- FIN DE CAJA DE QUE ES -->
+         <a id="shower2" title="De clic en las flechas de arriba para navegar por el sitio."></a>
+  		<div class="info_div2" id="info_description">
+		Acerque el mouse a una caracter&iacute;stica para una descripci&oacute;n.<a style="margin-left:7px;" id="sta2" href="javascript:void()">Aceptar</a>
+		</div>
+            <h4 style="margin-top: 62px;margin-left: 38px;"><strong style="margin-left:19px">SIFI Inventario</strong> es la soluci&oacute;n</h4>
+            					<ul style="line-height:20px;margin-left: 11px;margin-top:-18px">
+                <li class="list-home"><span class="olh inline" id="olh-mobil" style="padding-right: 0px;" alt="La interfaz amigable con la que cuenta SIFI Inventario hace que las tareas sean m&aacute;s f&aacute;ciles de realizar.">Captura de inventario de forma F&aacute;cil.</span></li>
+                <li class="list-home"><span class="olh inline" id="olh-internetcalling" style="padding-right: 0px; " alt="No tendr&aacute; que preocuparse m&aacute;s por que c&oacute;digo ponerle a sus art&iacute;culos pues el sistema lo asigna autom&aacute;ticamente basandose en las caracter&iacute;sticas de estos.">Generaci&oacute;n autom&aacute;tica del numero de inventario.</span></li>
+                <li class="list-home"><span class="olh inline" id="olh-sharing" style="padding-right: 0px; " alt="Podr&aacute; generar un expediente no solo de todos sus art&iacute;culos sino individualmente tambi&eacute;n.">Expediente electr&oacute;nico por art&iacute;culo.</span></li>
+                <li class="list-home"><span class="olh inline" id="olh-rc" style="padding-right: 0px; " alt="Gracias a que SIFI Inventario es bastante intuitivo detectar&aacute; de que tipo de art&iacute;culo se trata.">Identificaci&oacute;n autom&aacute;tica de Tipo Costo: Alto y Bajo Costo, Varios.</span></li>
+                <li class="list-home"><span class="olh inline" id="olh-multimon" style="padding-right: 0px; " alt="Herramientas potentes para buscar entre sus art&iacute;culos en almac&eacute;n">Herramienta de filtrado para consulta de inventario.</span></li>
+                <li class="list-home"><span class="olh inline" id="olh-chat" style="padding-right: 0px; " alt="Distintos tipos de reportes que le ayudar&aacute;n a obtener informaci&oacute;n detallada sobre el estado de sus bienes." >Generaci&oacute;n de reportes:</span>
+                <br />
+                <br />
+                 <ul style="list-style: circle;margin-bottom: 0px;" type="circle">
+                <li><img src="../img/reporticon.png" height=15px width=15px/> Cedula de Levantamiento F&iacute;sico
+                <li><img src="../img/reporticon.png" height=15px width=15px/> Reporte de Bienes muebles patrimoniales de alto y bajo costo
+                <li><img src="../img/reporticon.png" height=15px width=15px/> Tarjetas de resguardo
+                </ul> 
+                </li>                            
+                <li class="list-home"><span class="olh inline" id="olh-transfer" style="padding-right: 0px; " alt="Puede crear un codigo QR relacionado con cada art&iacute;culo en su almac&eacute;n.">Generaci&oacute;n autom&aacute;tica de etiquetas con C&oacute;digo de Barras tipo QR.</span></li>
+ 				<li class="list-home"><span class="olh inline" id="olh-mobil" style="padding-right: 0px;" alt="SIFI Inventario permite agregar documentos digitalizados e im&aacute;genes relacionados con sus art&iacute;culos.">Digitalizaci&oacute;n de Documentos asociados con el bien.</span></li> 	
+ 					
+ 					</ul>
+                </div>
+        
+            </div>
+        </div>
+    </td><td class="sprt_y white_right"></td></tr><tr class="white_bottom"><td class="sprt white_left"></td><td class="sprt_x white_middle"></td><td class="sprt white_right"></td></tr></tbody></table>
+</div>
+<script type="text/javascript">borderImages.reInit()</script>
+

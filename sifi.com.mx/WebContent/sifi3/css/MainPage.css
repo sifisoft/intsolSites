@@ -1,0 +1,350 @@
+/* ESTILO PARA EL FONDO */
+html{
+	background-image: linear-gradient(bottom, rgb(255,255,255) 54%, rgb(214,214,214) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 54%, rgb(214,214,214) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 54%, rgb(214,214,214) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 54%, rgb(214,214,214) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 54%, rgb(214,214,214) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.54, rgb(255,255,255)),
+		color-stop(1, rgb(214,214,214))
+	);
+
+	/* UTILIZA CSS3PIE PARA HACER CSS3 CROSSBROWSING */
+	-pie-background: linear-gradient(bottom, rgb(255,255,255) 54%, rgb(214,214,214) 100%);
+	behavior: url(./js/PIE.htc);
+}
+
+
+
+/* ESTILO PARA LA BARRA PRINCIPAL */
+#toolbar{
+	display: block;
+	height: 75px;
+	padding: 0px;
+	border:0;
+	margin: 10px;
+
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+
+	
+	/* UTILIZA CSS3PIE PARA HACER CSS3 CROSSBROWSING */
+	-pie-border-radius: 10px;
+	-pie-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;	
+	behavior: url(./js/PIE.htc);
+}
+#top_toolbar{
+	display: block;
+	border:0;
+	height: 48px;
+	padding: 0px;
+	margin: 0px;
+
+	border-radius: 10px 10px 0px 0px;
+	
+	/* BACKGROUND */
+	background-image: linear-gradient(bottom, rgb(158,203,45) 0%, rgb(113,170,0) 45%, rgb(142,185,42) 48%, rgb(191,210,85) 94%);
+	background-image: -o-linear-gradient(bottom, rgb(158,203,45) 0%, rgb(113,170,0) 45%, rgb(142,185,42) 48%, rgb(191,210,85) 94%);
+	background-image: -moz-linear-gradient(bottom, rgb(158,203,45) 0%, rgb(113,170,0) 45%, rgb(142,185,42) 48%, rgb(191,210,85) 94%);
+	background-image: -webkit-linear-gradient(bottom, rgb(158,203,45) 0%, rgb(113,170,0) 45%, rgb(142,185,42) 48%, rgb(191,210,85) 94%);
+	background-image: -ms-linear-gradient(bottom, rgb(158,203,45) 0%, rgb(113,170,0) 45%, rgb(142,185,42) 48%, rgb(191,210,85) 94%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(158,203,45)),
+		color-stop(0.45, rgb(113,170,0)),
+		color-stop(0.48, rgb(142,185,42)),
+		color-stop(0.94, rgb(191,210,85))
+	);
+
+	/* UTILIZA CSS3PIE PARA HACER CSS3 CROSSBROWSING */
+	-pie-border-radius: 10px;	
+	-pie-background: linear-gradient(bottom, rgb(158,203,45) 0%, rgb(113,170,0) 45%, rgb(142,185,42) 48%, rgb(191,210,85) 94%);
+	behavior: url(./js/PIE.htc);
+}
+#top_toolbar>span,#top_toolbar>img{
+	display: inline;
+	vertical-align: middle;
+}
+
+
+/* ESTILO PARA EL LOGO DE LA BARRA PRINCIPAL */
+#logo{
+	height: 40px;
+	border: 0px;
+	cursor: pointer;
+	margin: 5px;
+	margin-right: 15px;
+}
+
+
+/* ESTILO PARA EL TITULO PRINCIPAL */
+#title{	
+	border:0;	
+	color: white;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;	
+}
+
+
+/* ESTILO PARA LOS CONTROLES DE LA BARRA PRINCIPAL */
+#tools{
+	float: right;
+}
+#tools, #tools tr, #tools tr td {
+	border: 0px;	
+	margin: 0px;
+	padding: 0px;
+}
+#tools form{
+	display: inline-block;
+	background-color: white;
+	border:1px solid #AAA;
+	text-align: center;
+	margin: 2px;
+	height: 15px;
+	padding: 3px 10px;	
+
+	border-radius: 2em;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.4);
+
+	/* UTILIZA CSS3PIE PARA HACER CSS3 CROSSBROWSING */
+	-pie-border-radius: 2em;
+	-pie-box-shadow: inset 0 2px 80px rgba(0,0,0,.4);
+	behavior: url(./js/PIE.htc);
+}
+#tools form *{
+	float: left;
+	display: inline-block;
+	outline: none;
+	background-color: white;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 0px;
+	height: 15px;
+}
+#tools form>input[type="text"]{	
+	width:150px;
+	color: #888;	
+	font-size: 12px;
+
+}
+#tools .submit{
+ 	margin: 0px auto 0px auto;
+ 	width: 20px;
+	background-image: url(../img/search.png);
+	background-size: 15px;
+	background-repeat:no-repeat;
+	background-position: right;
+}
+#tools a{
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: underline;
+	padding: 0px;
+
+	margin: 0px 10px;
+
+}
+#tools .username{	
+	margin: 0px 10px;
+	color: white;
+	font-weight: normal;
+	font-size: 16px;
+	float: right;
+}
+
+
+/* ESTILO PARA EL MENU DE LA BARRA PRINCIPAL */
+#menu{	
+	border:0px;
+	height: 27px;
+}
+#menu>li{
+	height:100%;
+}
+#menu>li>a{
+	height:100%;
+}
+#menu>li>a>span[class="ui-button-text"]{
+	margin-top: 2px;
+}
+#menu>li>a *{
+	vertical-align: top;
+}
+#menu>li>a img{
+	width: 20px;
+	border:0px;
+	padding: 0px;
+	margin: 0px 5px;
+}
+
+/* ESTILO PARA LOS PANELES */
+#container{
+	z-index: -1;	
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	padding:0px;
+	margin: 0px;
+
+	background: none !important;
+	border:none !important;
+}
+#container>div{	
+	padding-top: 100px !important; /* MARGIN TOP */
+	background:none;
+	border:none !important;
+}
+#container>div[title="Resize"]{
+	margin-top: 100px !important; /* MARGIN TOP */
+	background:white;
+}
+#container>div[title="Resize"]>div[title="Close"]{
+	top:40% !important;
+}
+
+/* ESTILO PARA LA BARRA LATERAL*/
+.ui-layout-west>div{	
+	width:100%;
+	height:100%;
+	padding: 0px;
+	margin:  0px;
+	overflow: auto;
+	background-color: white;
+
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+
+	/* UTILIZA CSS3PIE PARA HACER CSS3 CROSSBROWSING */
+	-pie-border-radius: 10px;
+	-pie-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+	behavior: url(./js/PIE.htc);
+}
+
+.ui-layout-west>div div{
+	width: 100%;
+	height: 100px;
+	border-bottom:1px solid silver;
+}
+
+/* ESTILOS PARA LAS DIAPOSITIVAS */
+.slides iframe{
+	width: 100%;
+	height: 100%;
+	border:0px;
+}
+
+.slides {		
+	position: relative;
+	overflow: hidden;
+	background-color: none;
+	border:0;
+	width:100%;
+	height:100%;
+	padding: 0px;
+	margin:  0px;
+}
+
+.slide {
+
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	width: 900px;
+	height: 98%;
+	left: 50%;
+	top: 1%;
+	margin: 0px 40px;
+	
+	background-color: #f5d49f;		
+
+	background: linear-gradient(bottom, #f5d49f, #fff);		
+	transition: margin 0.25s ease-in-out;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+	border-radius: 10px;
+
+	/* UTILIZA CSS3PIE PARA HACER CSS3 CROSSBROWSING */
+	-pie-background: linear-gradient(bottom, #f5d49f, #fff);		
+	-pie-transition: margin 0.25s ease-in-out;
+	-pie-box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+	-pie-border-radius: 10px;
+	behavior: url(./js/PIE.htc);
+}
+
+.force-render {
+	display: block;
+	visibility: hidden;
+}
+
+.slide.far-past {
+	display: block;
+	margin-left: -2400px;
+}
+
+.slide.past {
+	visibility: visible;
+	display: block;
+	margin-left: -1400px;/*MOVER VALOR AL CAMBIAR EL WIDTH*/
+}
+
+.slide.current {
+	visibility: visible;
+	display: block;
+	margin-left: -450px;
+}
+
+.slide.future {
+	visibility: visible;
+	display: block;
+	margin-left: 500px;/*MOVER VALOR AL CAMBIAR EL WIDTH*/
+}
+
+.slide.far-future {
+	display: block;
+	margin-left: 1500px;
+}
+
+.slide>.close{
+	padding: 0px;
+	margin:3px;
+	border:none;
+
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/close.png);
+	background-size: 25px;
+	background-repeat:no-repeat;
+	background-position: right;
+	float: right;
+	cursor: pointer;
+}
+.slide>.title{
+	margin: 5px;
+	padding: 0px;
+	color: #888;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.slide>div{
+	display: block;
+	margin:0px;
+	padding: 3px;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+
+}

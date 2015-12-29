@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+   <!-- Diseño de panel en medio -->
+   	<!-- Scripts -->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/borderimages.js"></script>
+    <script type="text/javascript" src="../js/scripts.js"></script>
+	<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="../js/jScrollPane.js"></script>
+    <!-- .Scripts -->
+	<!-- CSS -->
+    <link type="text/css" rel="Stylesheet" href="../css/estilos.css" />
+    <link type="text/css" rel="Stylesheet" href="../../layoutB.css" />
+	<!-- .CSS -->
+	
+	<!-- Ajustes -->
+    <style type='text/css'>.themeColor, h1, h2, h3, h4, h5, h6, #tabsystem_left div, div#donthaveaccount, div#premium, table.exclamation td {color: #FF8000;} .sprt_l { background-image: url('../img/sprite_login.png'); } .sprt { background-image:url('../img/sprite.png'); } .sprt_y { background-image:url('../img/sprite_y.png'); } .sprt_x { background-image:url('../img/sprite_x.png'); } .contentwindow .tl, .contentwindow .tr, .contentwindow .bl, .contentwindow .br{ background-image:url('../img/gray_background_a.png'); } .contentwindow .tron .tr, .contentwindow .tron .tl, .contentwindow .tron .tm, .contentwindow .tron .tw .tr{background-image:url('../img/gray_background_tron.png'); } .contentwindow#menucontentwindow .tron .tl, .contentwindow#menucontentwindow .tron .tm, .contentwindow#menucontentwindow .tron .tw .tr, .contentwindow#menucontentwindow .tron .bl, .contentwindow#menucontentwindow .tron .br{background-image:url('../img/gray_background_tron_menu.png'); } </style>
+    <style type='text/css'>div.joci_rel.jm_beta div.joci_abs { background-position: 0px -277px; }</style>
+	<!-- .Ajustes -->
+	<!--  Diseño de panel en medio -->
+</head>
+<body>
+ <!-- mainWrapper -->
+	<div id="mainWrapper" style="height:555px">
+    	<div class="contentwindow" id="maincontentwindow" style="height:522px">
+        <div class="mainBgGray" id="capa_tam"></div>                        
+ 			<!-- MAIN CONTENT -->
+ 			<div id="jm_maincontent" style="padding: 15px;">
+   				 <div id="combotextbox_panel_container" class="joci_abs combotextbox_panel_container">
+   				 </div>
+    <table class="round white " cellpadding="0" cellspacing="0"><tbody><tr class="white_top"><td class="sprt white_left"></td><td class="sprt_x white_middle"></td><td class="sprt white_right"></td></tr><tr class="white_middle"><td class="sprt_y white_left"></td><td class="white_middle">
+     
+     <div id="loader" name="loader">
+     <center> 
+     CARGANDO...<br />
+     <img src="../img/IconLoading-big.gif" />
+     </center>
+     </div>
+
+    </td><td class="sprt_y white_right"></td></tr><tr class="white_bottom"><td class="sprt white_left"></td><td class="sprt_x white_middle"></td><td class="sprt white_right"></td></tr></tbody></table>
+			</div>
+            <!-- .MAIN CONTENT-->
+               </div>
+            </div>
+	 <!-- .mainWrapper -->
+	 
+	<!-- SCRIPT DE INICIALIZACION -->
+    <script type="text/javascript">
+            var sRedirectTo = JoinMe.Page.fn_s_GetParameterInHash("page");  
+            if(!sRedirectTo)
+            {
+                $('#jm_maincontent').css('visibility', 'visible');    
+                //$('#maincontentwindow.contentwindow .mm:first').css('background', '#000');
+            }
+            var bStopLoading = false;   
+            JoinMe.Menu.setContentTopmargin();
+            //JoinMe.Content.setTronText();
+           // JoinMe.Page.a_BackgroundPreview = Array('Coffecup_small.jpg','Hands_small.jpg','WaterCooler_small.jpg','Slippers_small.jpg','City_small.jpg','Fasttrack_small.jpg','Forecast_small.jpg','ShowNtell_small.jpg','Towers_small.jpg');
+       		//JoinMe.Content.updateMainContent("contenido.html");
+            </script>
+	<!-- FIN DE SCRIPT DE INICIALIZACION --> 
+                
+    <!--  Redondeado de imagenes -->
+    <script type="text/javascript">borderImages.init()</script>
+    <!-- .Redondeado de imagenes -->
+</body>
+</html>

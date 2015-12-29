@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="Imagenes/icono.ico" rel="shortcut icon" />
+	<link href="CSS/styleop.css" rel="stylesheet" type="text/css">
+	<title>.::H. Ayuntamiento de Atenco 2009 -2012::.</title>
+	<script language="javascript">
+	function Reloj()
+	{
+	var fecha = new Date();
+	var horas = fecha.getHours();
+	var minutos = fecha.getMinutes();
+	var segundos = fecha.getSeconds();
+	var mt = "AM";
+	if (horas > 12) {
+	mt = "PM";
+	horas = horas - 12;
+	}
+	if (horas == 0) horas = 12;
+	if (minutos <= 9) minutos = "0" + minutos;
+	if (segundos <= 9) segundos = "0" + segundos;
+	stringreloj = "<font size='1' face='Arial'>&nbsp;<b>Hora:</b> " + horas + ":" + minutos + ":" + segundos + " " + mt + "</font>";
+	if (document.layers) {
+	document.layers.spanreloj.document.write(cadenareloj);
+	document.layers.spanreloj.document.close();
+	}
+	else if (document.all) spanreloj.innerHTML = stringreloj;
+	else if (document.getElementById) document.getElementById("spanreloj").innerHTML = stringreloj;
+	// Ejecuto la función con un intervalo de un segundo
+	setTimeout("Reloj()", 1000);
+	}
+	</script>
+</head>
+<body onLoad="Reloj()">
+	
+	<div id="fondo">
+		<!---<div id="botonera"align=">
+			<p> <a href="index.html">Inicio </a> | <a href="mailto: hola@hotmail.com"> Contacto </a> | <a>Links </a> </p>-->
+		</div>
+	</div>
+	<div id="main">
+		<div id="menu">
+			<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="">Noticias</a></li>
+			<li><a href="">Atenco</a></li>
+			<li><a href=""> Turismo</a></li>
+			<li><a href="">Directorio</a></li>
+			<li><a href="">Presidente Municipal</a></li>
+			<li><a href="">Galeria</a></li>
+			<li><a href="">Emergencias</a></li>
+			</ul>
+		</div>
+		<BR>
+		<div id="contenido">
+			
+				<div id="reloj">
+				<script LANGUAGE="JavaScript">
+				<!-- COMIENZO
+				Stamp = new Date();
+				year = Stamp.getYear();
+				if (year < 2000) year = 1900 + year;
+				document.write('<font size="1" face="Arial"><B>Hoy es: </B> ' + (Stamp.getMonth() + 1) +"/"+Stamp.getDate()+ "/"+ year + '</font>');
+				// FIN -->
+				</script>
+				<span id="spanreloj" style="position:absolute;left:10;top:10;"></span>
+				</div>
+				
+				<br>
+			
+			<div id="botonlado">
+				<ul>
+				<li><a href="">Sala de Noticias</a></li>
+				<li ><a href="">Feria de Empleo</a></li>
+				
+				<li><a href="">OPDM</a></li>
+				
+				<li><a href="">Directorio</a></li>
+				
+				<li align="center"><a href="">Obras Municipales</a></li>
+				<BR>
+				<img src="Imagenes/pagos.png" class=" serv"align="center" alt="Pagos en linea" heigth="40px"></img>
+				<li><a href="">Agua OPDM</a></li>
+				<li><a href="">Predial</a></li>
+				<BR>
+				<img src="Imagenes/linea.png" class=" serv"align="center" alt="Servicios en linea" heigth="40px"></img>
+				<li><a href="">Atencion CIudadana</a></li>
+				<li><a href="">Ayuda en Línea</u></a></li>
+				<li><a href="transparencia.html"><u class="trans">Transparencia</u></a></li>
+				<li><a href="">Maltrato Intrafamiliar</a></li>
+				<li><a href="">Quejas y Denuncias</a></li>
+				<li"><a href="">MSN-Ventanilla</a></li>
+				</ul>
+			</div>
+			<div id="botonladod">
+				Links 
+				<ul>
+				<li><a href="http://www.sre.gob.mx/pasaportes" target="_blank"><img src="Imagenes/pasaportes.gif" border="0" alt="Tramite de Pasaportes"></a></li>
+				<li><a href="http://www.gobernacion.gob.mx/CurpPS_HTML/jsp/CurpTDP_20081215.html" target="_blank"><img src="Imagenes/curp.jpg" border="0" alt="Curp"></a></li>
+				<li><a href="http://www.sat.gob.mx/sitio_internet/plataforma/132_9879.html" target="_blank"><img src="Imagenes/sat.gif" border="0" alt="SAT"></a></li>
+				<li><a href="http://www.edomex.gob.mx" target="_blank"><img src="Imagenes/edomex.jpg" border="0" alt="Edo. Mex"></a></li>
+				<li><a href="http://bicentenario.gob.mx" target="_blank"><img src="Imagenes/bicentenario.gif" border="0" alt="Bicentenario"></a></li>
+				</ul>
+			</div>
+		<h2>Bienvenido</h2>
+
+		<h5>Ulitmas Noticias</h5>
+
+		<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+		
+		<BR>
+		</div>
+		<div id="pie">
+			<br><br><br><br><br><br><br><br><br><br><br>
+			<font class="navi">Para vizualizar correctamente esta página, descarga la ultima versión de tu navegador:
+			<br>
+			<a href="http://www.microsoft.com/spain/windows/internet-explorer/" target="_blank"><img   class="navia" src="Imagenes/ico_explorer.png" border="0" alt="Internet Explorer"></img></a>
+			<a href="http://www.mozilla-europe.org/es/firefox/ " target="_blank"><img border="0"class="navi" src="Imagenes/ico_firefox.png" alt="Internet Explorer"></img></a>
+			<a href="http://www.google.com/chrome?hl=es" target="_blank"><a href=""><img border="0"class="navi"src="Imagenes/ico_chrome.png" alt="Internet Explorer"></img></a>
+			</font>
+			<br>
+			<p>2010 &copy;. Reservados Todos los Derechos</p>
+			
+		</div>
+
+		
+		
+	</div>
+</body>
+</html>

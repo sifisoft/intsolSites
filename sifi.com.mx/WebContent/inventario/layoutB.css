@@ -1,0 +1,615 @@
+#navigationBar
+{
+    height:61px;
+    width:100%;
+    min-width:900px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url('src/img/navbar_bg.png') repeat-x;
+    z-index:10000;
+}
+
+#navigationBar .coverBg
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:51px;
+    width:820px;
+    background:url('src/img/navbar_bg.png') repeat-x;
+    z-index:2;
+}
+
+#navigationBar div
+{
+    position:relative;
+    float:left;
+    font-size:13px;
+    color:#636363;
+    z-index:3;
+}
+
+
+#navigationBar div.login
+{
+    position:absolute;
+    right:30px;
+    top:0;
+    z-index:1;
+}
+
+#navigationBar div.login .logo
+{
+    position:relative;
+    display:inline-block;
+    width:23px;
+    height:23px;
+    top:7px;
+    background:url('src/img/lmi_login_logo.png') no-repeat;
+}
+
+.br_ie.vr_7 #navigationBar div.login .logo
+{
+    top:4px;
+}
+
+#navigationBar div.login span
+{
+    text-align:right;
+    font-weight:bold;
+    color:#ff9200;
+    display:inline-block;
+    padding:0 0 0 0;
+}
+
+#navigationBar div.login div.naviSubs
+{
+    left:auto;
+    right:-25px;
+    width:auto;
+}
+
+.br_ie #navigationBar div.login div.naviSubs
+{
+    left:auto;
+    right:-15px;
+    width:auto;
+}
+
+#navigationBar div.login div.naviSubs span
+{
+    text-align:left;
+    color:#636363;
+    font-weight:normal;
+    display:block;
+    margin-right:5px;
+}
+
+#navigationBar div.login div.naviSubs span:hover
+{
+    color:#ff9200;
+}
+
+#navigationBar div.login.loggedin .loginText b.sprt
+{
+    position:relative;
+    display:inline-block;
+    width:6px;
+    height:5px;
+    background-position:-373px 0;
+    margin-left:5px;
+}
+
+#navigationBar div.login:hover div.naviSubs
+{
+    display:none;
+}
+
+#navigationBar div.login.loggedin:hover div.naviSubs
+{
+    display:block;
+}
+
+#navigationBar div.vr
+{
+    height:51px;
+    width:0px;
+    border-left:1px solid #e1e1e1;
+    border-right:1px solid #fff;
+    margin:0 2px;
+}
+
+#navigationBar div span
+{
+    position:relative;
+    display:block;
+    height:51px;
+    left:5px;
+    line-height:51px;
+    padding:0 45px 0 35px;
+    cursor:pointer;
+}
+
+#navigationBar div span:hover
+{
+    color:#ff9200;
+}
+
+#navigationBar div.hover .naviSubs
+{
+    display:block;
+}
+
+#navigationBar div#navbarLogo
+{
+    width:200px;
+    height:51px;
+    background:url('src/img/logo_newhp.png') no-repeat center 7px;
+    cursor:pointer;
+}
+
+.naviSubs
+{
+    display:none;
+    width:100%;
+    position:absolute !important;
+    top:51px;
+    left:-9px;    
+    padding:0;
+    border-width:10px 10px 10px 10px;
+    text-align:left;
+	border-image:url(src/img/navi_dropdown_bg.png) 10 10 10 10 stretch;
+	-moz-border-image:url(src/img/navi_dropdown_bg.png) 10 10 10 10 stretch;
+	-webkit-border-image:url(src/img/navi_dropdown_bg.png) 10 10 10 10 stretch; 
+}
+
+.br_ie .naviSubs
+{
+    top:61px;
+    left:1px;
+}
+
+#navigationBar div .naviSubs span
+{
+    position:relative;
+    left:-4px;
+    text-indent:15px;    
+    padding:0 5px 10px 0;    
+    min-width:100%;
+    height:50px;
+    line-height:50px;    
+    border-top:1px solid #e1e1e1;
+    margin-top:-10px;
+    margin-bottom:-10px;    
+    background:url(src/img/blank.gif);
+}
+
+#navigationBar div .naviSubs span:hover
+{
+    color:#ff9200;
+}
+
+.layoutB #maincontentwindow
+{
+    margin-top:100px;
+}
+
+.mainBgGray
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:-6px;
+    left:-7px;    
+    border-width:6px 6px 7px 8px;
+	border-image:url(src/img/new_gray_round_bg.png) 6 6 6 6 stretch;
+	-moz-border-image:url(src/img/new_gray_round_bg.png) 6 6 6 6 stretch;
+	-webkit-border-image:url(src/img/new_gray_round_bg.png) 6 6 6 6 stretch;    
+}
+
+#schedulerFullScreenBgGray
+{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: #000;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    z-index: 1;
+    display: none;
+}
+
+.br_ie .mainBgGray
+{
+    top:0px;
+    left:0px;
+}
+
+.homeBoxes
+{
+    position:absolute;
+    width:234px;
+    height:78px;
+    bottom:-111px;
+    cursor:pointer;
+    border-width:6px 6px 6px 6px;
+	border-image:url(src/img/new_gray_round_bg.png) 6 6 6 6 stretch;
+	-moz-border-image:url(src/img/new_gray_round_bg.png) 6 6 6 6 stretch;
+	-webkit-border-image:url(src/img/new_gray_round_bg.png) 6 6 6 6 stretch;    
+}
+
+.homeBoxes h1
+{
+    position:relative;
+}
+
+.homeBoxes p
+{
+    position:relative;
+    font-size:13px;
+    line-height:16px;
+    color:#fff;
+    margin-top:-30px;
+    text-align:center;
+    display:none;
+}
+
+.homeBoxes span.arrow
+{
+    position:absolute;
+    display:block;
+    width:14px;
+    height:12px;
+    left:50%;
+    top:52px;
+    margin:0 0 0 -7px;
+    background:url(src/img/promobox_arrow.png) no-repeat;
+}
+
+.homeBoxes p a
+{
+    color:#ff9200;
+    font-weight:normal;
+}
+
+.homeBoxes:hover
+{
+    bottom:-141px;
+    height:108px;
+}
+
+.homeBoxes:hover span.arrow
+{
+    display:none;
+}
+
+
+.homeBoxes:hover p
+{
+    display:block;
+}
+
+#buyBox
+{
+    left:-6px;    
+}
+
+    .br_ie #buyBox
+    {
+        left:0px;
+    }
+
+#teamBox
+{
+    left:249px;
+}
+
+    .br_ie #teamBox
+    {
+        left:255px;
+    }
+
+#tourBox
+{
+    left:504px;
+}
+
+    .br_ie #tourBox
+    {
+        left:510px;
+    }
+
+
+.homeBoxes h1
+{
+    text-align:center;
+    color:#fff;
+    font-size:20px;
+    height:68px;
+    line-height:68px;
+    font-family:Tahoma, Arial, Sans-Serif;
+}
+
+#footerContainer,
+#socialWrapper
+{
+    position:absolute;
+    top:0;
+    height:100%;
+    min-height:640px;
+    width:0px;
+}
+
+#footerContainer
+{
+    left:0;
+    color:#fff;
+    font-size:11px;
+    left:30px;
+}
+
+#footerContainer a
+{
+    color:#fff;
+}
+
+#socialWrapper
+{
+    right:0;
+}
+
+#footerInner
+{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:40px;
+    width:900px;
+}
+              
+#footerLmiLogo,
+#footerLegaleseLink,
+#footerPrivacyLink,
+#footerSalesLink,
+#footerCopyright,
+#footerQuestions,          
+#footerPoweredby
+{
+    position:relative;
+    float:left;
+    display:block;
+}
+
+#footerLegaleseLink
+{
+    font-size:11px;
+    cursor:pointer;
+}
+
+#footerLegaleseLink span
+{
+    font-weight:bold;
+    text-decoration:underline;
+    padding:0 8px;
+} 
+
+#footerPrivacyLink
+{
+    font-size:11px;
+    cursor:pointer;
+} 
+
+#footerPrivacyLink span
+{
+    font-weight:bold;
+    text-decoration:underline;
+    padding:0 8px;
+}
+
+#footerSalesLink
+{
+    font-weight:normal;
+    font-size:11px;
+} 
+
+#footerSalesLink span
+{
+    font-weight:bold;
+    text-decoration:underline;
+    padding:0 8px;
+}
+
+#footerQuestions
+{
+    font-size:11px;
+} 
+
+#footerQuestions span
+{
+    font-weight:bold;
+    padding:0 5px;
+}
+
+#footerPoweredby
+{
+    font-size:10px;
+    padding-left:20px;
+    cursor:pointer;
+}
+
+#footerPoweredby b
+{
+    display:inline-block;
+    background-position: -280px 0px;
+    width:68px;
+    height:24px;
+    margin-left:5px;
+    margin-top:-11px;
+    top:4px;
+    position:relative;
+}
+
+#socialIcons
+{
+    bottom:35px;
+    right:200px;
+	height:18px;
+	width:105px;
+	position:absolute;
+	right:20px;
+	z-index:100001;
+}
+
+#socialIcons a
+{
+    outline:none;
+}
+
+.br_ie #socialIcons
+{
+    width:75px;
+}
+
+#socialIcons .socialGroups
+{
+    position:relative;
+    width:34px;
+    height:35px;
+    background:url(src/img/social_icons.png) no-repeat 2px -205px;
+    float:left;
+    cursor:pointer;
+    z-index:100001;
+}
+
+#socialIcons .socialIconWindow
+{
+    border-width:6px 6px 6px 6px;
+	border-image:url(src/img/roundbg.png) 6 6 6 6 stretch;
+	-moz-border-image:url(src/img/roundbg.png) 6 6 6 6 stretch;
+	-webkit-border-image:url(src/img/roundbg.png) 6 6 6 6 stretch;
+}
+
+#socialLikeWindow
+{
+    position:absolute;    
+    left:-20px;
+    width:57px;
+    height:100px;
+    top:-112px;
+    visibility:hidden;
+}
+
+#socialIcons .br_ie #socialLikeWindow
+{
+    top:-1000px;
+    width:60px;
+    margin:6px 0 0 6px;
+    visibility:visible;
+}
+
+#fbLikeDisc:hover #socialLikeWindow
+{
+   visibility:visible;
+}
+
+#socialIcons .br_ie.vr_7 #fbLikeDisc
+{
+    display:none;
+}
+
+#blogDisc #blog
+{
+    position:absolute;
+    top:0;
+    left:1px;
+    width:30px;
+    height:30px;
+    background:url(src/img/social_icons.png) no-repeat 0 5px;
+}
+    #blogDisc:hover #blog { background-position: -30px 5px }
+
+
+#fbLikeDisc #fbLikeIcon
+{
+    position:absolute;
+    top:0;
+    left:1px;
+    width:30px;
+    height:30px;
+    background:url(src/img/social_icons.png) no-repeat 0 -25px;
+}
+    #fbLikeDisc:hover #fbLikeIcon { background-position: -30px -25px }
+
+
+#shareDisc #shareIcon
+{
+    position:absolute;
+    top:0;
+    left:1px;
+    width:30px;
+    height:30px;
+    background:url(src/img/social_icons.png) no-repeat -1px -55px;
+}
+    #shareDisc:hover #shareIcon { background-position: -31px -55px }
+
+
+#socialShareWindow
+{
+    position:absolute;
+    top:-135px;
+    left:-1px;
+    width:23px;
+    height:123px;
+    visibility:hidden;
+}
+
+#socialIcons .br_ie #socialShareWindow
+{
+    margin:6px 0 0 6px;
+}
+
+#socialShareWindow a
+{
+    position:relative;
+    display:block;
+    width:30px;
+    height:30px;
+    left:-5px;
+    background:url(src/img/social_icons.png) no-repeat;
+}
+
+#shareDisc:hover #socialShareWindow
+{
+    visibility:visible;
+}
+
+#socialIcons a#facebook
+{
+	background-position: 0 -90px;
+}
+    #socialIcons a#facebook:hover { background-position: -30px -90px; }
+
+
+#socialIcons a#twitter
+{
+	background-position: 0 -120px;
+}
+    #socialIcons a#twitter:hover { background-position: -30px -120px; }
+
+
+#socialIcons a#youtube
+{
+	background-position: 0 -150px;
+}
+    #socialIcons a#youtube:hover { background-position: -30px -150px; }
+
+
+#socialIcons a#linkedin
+{
+    top:3px;
+	background-position: 0 -180px;
+}
+    #socialIcons a#linkedin:hover { background-position: -30px -180px; }

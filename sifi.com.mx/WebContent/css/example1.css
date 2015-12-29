@@ -1,0 +1,32 @@
+/*************************
+******** Arrows **********
+**************************/	
+div.jMyCarousel .prev{
+	background: url('../images/left.png') center center no-repeat;
+	width:30px;
+	height:40px;
+	border:0px;
+}
+div.jMyCarousel .next{
+	background: url('../images/right.png') center center no-repeat;
+	width:30px;
+	height:40px;
+	border:0px;
+}
+
+
+/** carousel 1 **/
+div.jMyCarousel ul li{
+	border:0px solid #fff;
+	line-height:0px;
+}
+
+div.jMyCarousel ul li a{ /* in case of link */
+	display:block;
+	border:0px;
+}
+
+div.jMyCarousel ul li a img{
+	display:block;
+	border:0px;
+}
